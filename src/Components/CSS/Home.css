@@ -1,0 +1,51 @@
+
+.hero-section {
+  background-image: url('../../Images/test5.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding-top: 60px; /* Space for navbar */
+}
+
+.overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.overlay h2 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 2rem;
+  font-size: 2rem;
+  margin: 1.5rem 0;
+}
+
+.social-icons svg {
+  transition: all 0.3s ease;
+}
+
+.social-icons svg:hover {
+  color: #00bcd4;
+  transform: translateY(-3px);
+}
+
+.overlay p {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
