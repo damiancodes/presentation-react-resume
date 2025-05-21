@@ -1,6 +1,6 @@
 import React from 'react';
-import '../Components/CSS/Services.CSS'; 
-import 'bootstrap/dist/css/bootstrap.min.css'; 
+import '../Components/CSS/Services.CSS';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { FaLaptopCode, FaMobileAlt, FaSearch, FaPenFancy, FaPaintBrush, FaTools } from 'react-icons/fa';
 
 const Services = () => {

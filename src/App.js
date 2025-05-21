@@ -9,6 +9,8 @@ import Skills from './Pages/Skills';
 import Contact from './Pages/Contact';
 
 function App() {
+
+   
   return (
     <Router>
       <Navbar /> 

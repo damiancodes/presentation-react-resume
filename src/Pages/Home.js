@@ -7,11 +7,12 @@ import test5 from '../Images/test5.jpg';
 import '../Components/CSS/Home.css';
 
 export const Home = () => {
+
   return (
     <div className="hero-section">
       <div className="overlay">
-        <h1>Brendan Johnson</h1>
-        <h2>I am a freelancer</h2>
+        <h1>Damian Wabwire</h1>
+        <h2>I am a full stack developer</h2>
 
        
         

@@ -1,0 +1,104 @@
+/* Resume Layout */
+.resume-section {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 32px 16px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.resume-header {
+  margin-bottom: 32px;
+}
+.resume-header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+.resume-header h2 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #0077b6;
+  margin-bottom: 0.5rem;
+}
+.contact-info {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 0.5rem;
+}
+.contact-info a {
+  color: #0077b6;
+  text-decoration: underline;
+  margin: 0 0.25rem;
+}
+
+.resume-main {
+  display: flex;
+  gap: 40px;
+}
+.resume-left, .resume-right {
+  flex: 1;
+  min-width: 0;
+}
+.resume-section-block {
+  margin-bottom: 32px;
+}
+.resume-section-block h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #222;
+  border-bottom: 2px solid #0077b6;
+  padding-bottom: 4px;
+  margin-bottom: 16px;
+  letter-spacing: 0.5px;
+}
+.resume-section-block ul {
+  padding-left: 18px;
+  margin-bottom: 0;
+}
+.resume-section-block li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+.job-block, .project-block {
+  margin-bottom: 24px;
+}
+.job-block h4, .project-block h4 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 2px;
+  color: #0077b6;
+}
+.job-meta {
+  font-size: 0.98rem;
+  color: #666;
+  margin-bottom: 6px;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .resume-main {
+    flex-direction: column;
+    gap: 0;
+  }
+  .resume-left, .resume-right {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .resume-section {
+    padding: 10px 2px;
+  }
+  .resume-header h1 {
+    font-size: 1.5rem;
+  }
+  .resume-header h2 {
+    font-size: 1rem;
+  }
+  .resume-section-block h3 {
+    font-size: 1rem;
+  }
+} 
